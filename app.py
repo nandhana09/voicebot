@@ -5,10 +5,10 @@ import os
 import json
 import random
 
-# Load the dataset
+# Load the dataset 
 with open(r'E:\voicebot\dataset\intents.json') as file:
     data = json.load(file)
-
+ 
 # Initialize the speech recognizer
 recognizer = sr.Recognizer()
 
